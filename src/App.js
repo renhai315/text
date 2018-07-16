@@ -7,6 +7,8 @@ import DocumentTitle from 'react-document-title';
 import LoginScreen from './Screen/LoginScreen';
 import RegisterScreen from './Screen/RegisterScreen';
 import CreateUserScreen from './Screen/CreateUserScreen';
+import TabBarScreen from './Screen/TabBarScreen';
+
 class App extends Component {
   render() {
     return (
@@ -14,7 +16,7 @@ class App extends Component {
           <Route path={'/LoginScreen'} component={LoginScreen} />
           <Route path={'/RegisterScreen'} component={RegisterScreen} />
           <Route path={'/CreateUserScreen'} component={CreateUserScreen} />
-          
+          <Route path={'/TabBarScreen'} component={TabBarScreen} />
         </div>
     );
   }
