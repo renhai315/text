@@ -7,8 +7,8 @@ import {
 
 
 import HomeScreen from './HomeScreen';
-import FriendScreen from './FriendScreen';
-import PersonScreen from './PersonScreen';
+//import FriendScreen from './FriendScreen';
+//import PersonScreen from './PersonScreen';
 
 import accountManager from '../DataServer/AccountManager';
 
@@ -55,7 +55,7 @@ export default class TabbarScreen extends Component {
             >
               <HomeScreen {...this.props}/>
             </TabBar.Item>
-            <TabBar.Item
+            {/* <TabBar.Item
               key='FriendScreen'
               title='朋友'
               selected={'FriendScreen' === this.state.selected }
@@ -80,7 +80,7 @@ export default class TabbarScreen extends Component {
               selectedIcon={{uri:'http://7u2rl9.com1.z0.glb.clouddn.com/personal_select.png'}}
             >
               <PersonScreen {...this.props}/>
-            </TabBar.Item>
+            </TabBar.Item> */}
           </TabBar>  
         </div>
     );
