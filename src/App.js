@@ -11,6 +11,7 @@ import TabBarScreen from './Screen/TabBarScreen';
 import CreateMessageScreen from './Screen/CreateMessageScreen';
 import HomeScreen from './Screen/HomeScreen';
 import AddFriendScreen from './Screen/AddFriendScreen';
+import UserScreen from './Screen/UserScreen';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path={'/HomeScreen'} component={HomeScreen} />
           <Route path={'/TabBarScreen'} component={TabBarScreen} />
           <Route path={'/AddFriendScreen'} component={AddFriendScreen} />
+          <Route path={'/UserScreen'} component={UserScreen} />
         </div>
     );
   }
